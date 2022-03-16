@@ -1,0 +1,10 @@
+.background{
+    max-width: 600px;
+    padding: 100px;
+    background-color:light-blue;
+    background-image: url(https://media.istockphoto.com/photos/astronaut-lying-in-the-meadow-picture-id1304263738?b=1&k=20&m=1304263738&s=170667a&w=0&h=LZ99BV0qvF5GsYw3mqyJcN5lNZPvJ5jaKcDs9dMvzmg=);
+    background-repeat: repeat;
+    background-position: 100px 100px;
+    background-size:100% 100%;
+    background:content-box radial-gradient(crimson,skyblue);
+}

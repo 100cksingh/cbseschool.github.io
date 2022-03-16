@@ -1,0 +1,32 @@
+/* root element */
+html{
+    background: white;
+
+}
+/* viewport */
+body{
+    background: none;
+    height: 400px;
+
+}
+.block1{
+    display: none;
+    background: pink;
+}
+.block2{
+    /* display: none; */
+    background:lightblue ;
+    float: left;
+}
+.float{
+    /* display: none; */
+    background: lightblue;
+    float: left;
+    margin: -150px 0 0 100px;
+}
+.inline{
+    /* display: none; */
+    background-image: blue;
+    color: white;
+    padding: 10px 40px 10px 10px;
+}

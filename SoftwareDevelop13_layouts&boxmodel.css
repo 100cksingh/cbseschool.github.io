@@ -1,0 +1,42 @@
+/* body{
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+ */
+
+html{
+    box-sizing: border-box;
+}
+*,*:before,*:first{
+    box-sizing: inherit;
+}
+.wrapper{
+    font-size: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+header,footer{
+    background: #ccc;
+    height: 50px;
+    width: 600px;
+}
+aside{
+    background: lightblue;
+    height: 250px;
+    width: 100px;
+    float: left;
+}
+article{
+    background: lightgreen;
+    height: 210px;
+    width: 560px;
+    float: top;
+    padding: 20px;
+}
+footer{
+    clear: both;
+}

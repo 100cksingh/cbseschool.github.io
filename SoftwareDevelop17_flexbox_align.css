@@ -1,0 +1,171 @@
+html{
+    box-sizing:border-box;
+}
+*,*:before,*:after{
+    box-sizing:inherit;
+}
+body{
+    color:343434;
+    margin: 1%;;
+    font-family:'Motserrat',sans-serif;
+    font-size:15px;
+    line-height:18px;
+}
+img{
+    width: 300px;
+}
+a{
+    color: #ffe66d;
+
+}
+a:hover{
+    text-decoration: none;
+}
+h1{
+    font-size: 100px;
+    line-height: 1;
+}
+h2{
+    font-size: 45px;
+
+}
+h1,h2{
+    font-family: 'Caveat',cursive;
+    font-weight: 400;
+    margin: 0;
+}
+.content-wrap{
+     max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+h3{
+    margin-bottom: 0;
+}
+.item-details h3+p{
+    font-style: italic;
+}
+ .item-details h3~p{
+    margin: 0;
+}
+.divider>section{
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+.divider>section:last-of-type{
+    border-bottom: none;
+}
+
+
+
+/* Profile */
+header{
+    background: #2f3061;
+    color: #F7FFF7;
+    text-align: center;
+}
+
+/* Projects */
+.projects{
+    background:#F7FFF7 ;
+}
+.projects a{
+    color: #2f3061;
+}
+.projects .btn{
+    color: #F7FFF7;
+    background: #2f3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover{
+    background: rgba(47, 48, 97, 80%);
+}
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+
+.project-item h3{
+    margin-top: 0;
+}
+
+
+/* Work Experience */
+.work-experience{
+    background: #a1c6d7;
+
+}
+
+
+
+
+
+
+
+
+/* Education */
+
+.education{
+    background-image: url(https://media.istockphoto.com/photos/fountain-pen-with-goldplated-pen-isolated-on-white-background-picture-id545116708?k=20&m=545116708&s=612x612&w=0&h=P6Oa1I__UbOBa00gWTwilgEdt3KwrG4iXcY9vgDtW4A=);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom :100px; ;
+    background-color: rgb(244, 165, 96);
+}
+.education p{
+    width: 60%;
+}
+
+
+/* Contact Info */
+footer{
+    background: #343434;
+    color:#f7fff7;
+    text-align: center;
+}
+.contact-list{
+    list-style-type: none ;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (min-width:750px){
+header,footer{
+    text-align: center;
+}
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
+.job-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5px;
+}
+.contact-list a{
+    padding: 15px;
+    display: inline-block;
+}
+}
+
+
+
+@media screen and (max-width:749px){
+    h1{
+        font: size 75px;
+        line-height: 0.9;
+        margin-bottom: 20px;
+    }
+    h2{
+        line-height: 1;
+    }
+    .contact-list a{
+        padding: 5px;
+    }
+}
